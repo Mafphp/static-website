@@ -37,7 +37,7 @@ const App = () => (
 const Navigation = () => (
   <ul>
     <li>
-      <a href="/a/welcome?to=/">Home</a>
+      <a href="/">Home</a>
     </li>
     <li>
       <a href="/a/sign-up?to=/">SingUp</a>
