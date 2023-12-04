@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  static-website-develop:
+    image: develop-static-website-image
+    container_name: static-website-develop-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5100:80"
