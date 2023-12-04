@@ -53,11 +53,7 @@ const Navigation = () => (
 
 const Content = () => (
   <Routes>
-    <Route
-      path="/"
-      element={<Navigate to="/a/welcome?to=/" replace />}
-    />
-    <Route exact path="/a/welcome?to=/" element={<Home />} />
+    <Route exact path="/" element={<Home />} />
     <Route path="/a/sign-up?to=/" element={<SingUp />} />
     <Route path="/courses/*" element={<Course />} />
     <Route path="/about" element={<About />} />
